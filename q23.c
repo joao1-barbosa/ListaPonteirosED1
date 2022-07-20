@@ -5,9 +5,9 @@
 void maiorElementoVetor(int *vetor, int tamanho, int *maior_valor){
     int i;
 
-    *maior_valor = *vetor;
+    *maior_valor = vetor[0];
 
-    for(i=1; i<10; i++){
+    for(i=1; i<tamanho; i++){
         if(*(vetor+i) > *(vetor+(i-1))){
             *maior_valor = *(vetor+i);
         }

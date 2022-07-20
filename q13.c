@@ -1,3 +1,5 @@
+//     !!!!!!!!!IMCOMPLETA!!!!!!!!!
+
 //Q13 - Verificar se uma string ocorre na outra
 /*OBS: O exercício poderia ser resolvido com a função strstr da biblioteca string.h,
     porém o objetivo da lista é praticar a manipulação de ponteiros */
